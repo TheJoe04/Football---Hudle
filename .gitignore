@@ -1,0 +1,8 @@
+web/node_modules/
+web/.next/
+cv-service/__pycache__/
+data/
+.venv/
+*.pyc
+.env
+*.tsbuildinfo

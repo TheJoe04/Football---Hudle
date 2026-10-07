@@ -1,0 +1,12 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+pydantic>=2.8
+opencv-python>=4.10
+numpy>=1.26
+scipy>=1.13
+openai>=1.40
+python-dotenv>=1.0
+
+# Install the vendored CV package plus its shipped detection backend separately:
+# pip install -e ../vendor/football-cv[detect,ml]
